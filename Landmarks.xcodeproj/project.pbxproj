@@ -81,7 +81,6 @@
 		78E2DBCB289EE4E900493CEC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E2DB30289006DC00493CEC /* ModelData.swift */; };
 		78E2DBCC289EE4E900493CEC /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E2DB2C2890048100493CEC /* Landmark.swift */; };
 		78E2DBCD289EE4E900493CEC /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E2DB1A288FFFEB00493CEC /* LandmarksApp.swift */; };
-		78E2DBCE289EE4F100493CEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E2DBB6289EE41A00493CEC /* ContentView.swift */; };
 		78E2DBD0289EE70800493CEC /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E2DBCF289EE70800493CEC /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
@@ -607,7 +606,6 @@
 				78E2DB452892C62400493CEC /* BadgeSymbol.swift in Sources */,
 				78E2DB6B289D3E7D00493CEC /* ProfileEditor.swift in Sources */,
 				78E2DB38289008FE00493CEC /* LandmarkList.swift in Sources */,
-				78E2DBCE289EE4F100493CEC /* ContentView.swift in Sources */,
 				78E2DB57289693BB00493CEC /* HikeView.swift in Sources */,
 				78E2DB3A289009D700493CEC /* LandmarkDetail.swift in Sources */,
 				78E2DB6E289D59F800493CEC /* PageViewController.swift in Sources */,

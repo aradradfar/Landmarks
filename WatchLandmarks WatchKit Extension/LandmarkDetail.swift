@@ -1,8 +1,8 @@
 //
-//  LandmarkDetail.swift
+//  LandmarkList.swift
 //  WatchLandmarks WatchKit Extension
 //
-//  Created by Arad Radfar on 8/6/22.
+//  Created by Arad Radfar on 8/11/22.
 //
 
 import SwiftUI
@@ -14,6 +14,7 @@ struct LandmarkDetail: View {
     var landmarkIndex: Int {
         modelData.landmarks.firstIndex(where: { $0.id == landmark.id })!
     }
+
     var body: some View {
         ScrollView {
             VStack {
@@ -39,7 +40,7 @@ struct LandmarkDetail: View {
                     .font(.caption)
 
                 Divider()
-                
+
                 MapView(coordinate: landmark.locationCoordinate)
                     .scaledToFit()
             }
